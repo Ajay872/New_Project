@@ -28,6 +28,10 @@ jobs:
       # Runs a single command using the runners shell
       - name: show date
         run: date
+        name: list the files
+        run: ls
+        name: create directory
+        run: mkdir training2024
         
 
       # Runs a set of commands using the runners shell
